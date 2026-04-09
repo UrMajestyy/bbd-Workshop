@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="css/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wishlist | Exclusive Gadgets</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="nav-mark">
+                <a href="home.html" class="nav-brand">Exclusive<span>Gadgets</span></a>
+            </div>
+
+            <!-- Right side: links + search + cart -->
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="home.html"     class="active">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Brands.html">Brands</a></li>
+                    <li><a href="Wishlist.html">Wishlist</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+
+                <!-- Search bar -->
+                <div class="nav-search">
+                    <input type="text" placeholder="Search gadgets…" aria-label="Search products" />
+                    <button aria-label="Search">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Wishlist icon -->
+                <a href="Wishlist.html" class="nav-wishlist" aria-label="Wishlist">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                </a>
+
+                <!-- Cart icon -->
+                <a href="Cart.html" class="nav-cart" aria-label="Shopping Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <path d="M16 10a4 4 0 0 1-8 0"/>
+                    </svg>
+                    <span class="cart-count">3</span>
+                </a>
+            </div>
+        </nav>
+
+        <div class="page-header">
+            <h1>My Wishlist ♡</h1>
+            <p>Items you've saved for later</p>
+            <div class="breadcrumb">
+                <a href="home.html">Home</a>
+                <span class="breadcrumb-sep">›</span>
+                <span>Wishlist</span>
+            </div>
+        </div>
+
+        <main>
+            <section class="section">
+                <div class="container">
+
+
+                    <div class="wishlist-grid">
+
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="Images/Iphe 15 pro max.png" alt="iPhone 15 Pro" />
+                            <span class="product-badge"><span class="badge badge-new">New</span></span>
+                            <button class="product-wishlist-btn" style="color:var(--scarlet);" aria-label="Remove from Wishlist">♥</button>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-category">Smartphones</p>
+                            <h3>Apple iPhone 15 Pro — 256GB</h3>
+                            <div class="product-price"><span class="price-current">R22,999</span><span class="price-old">R25,000</span></div>
+                            <div style="display:flex;gap:8px;">
+                                <a href="cart.html" class="btn btn-primary" style="flex:1;justify-content:center;font-size:.78rem;padding:9px;">Add to Cart</a>
+                                <a href="Product details.html" class="btn btn-light" style="padding:9px 12px;font-size:.78rem;">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="Images/Macbook pro 14.png" alt="MacBook Pro" />
+                            <span class="product-badge"><span class="badge badge-best">Best Seller</span></span>
+                            <button class="product-wishlist-btn" style="color:var(--scarlet);" aria-label="Remove from Wishlist">♥</button>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-category">Laptops</p>
+                            <h3>Apple MacBook Pro 14" M3 Pro</h3>
+                            <div class="product-price"><span class="price-current">R38,999</span><span class="price-old">R42,000</span></div>
+                            <div style="display:flex;gap:8px;">
+                                <a href="Cart.html" class="btn btn-primary" style="flex:1;justify-content:center;font-size:.78rem;padding:9px;">Add to Cart</a>
+                                <a href="Product details.html" class="btn btn-light" style="padding:9px 12px;font-size:.78rem;">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="Images/Sony headphones.png" alt="Sony Headphones" />
+                            <button class="product-wishlist-btn" style="color:var(--scarlet);" aria-label="Remove from Wishlist">♥</button>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-category">Audio</p>
+                            <h3>Sony WH-1000XM5 Headphones</h3>
+                            <div class="product-price"><span class="price-current">R7,499</span><span class="price-old">R9,000</span></div>
+                            <div style="display:flex;gap:8px;">
+                                <a href="Cart.html" class="btn btn-primary" style="flex:1;justify-content:center;font-size:.78rem;padding:9px;">Add to Cart</a>
+                                <a href="Product details.html" class="btn btn-light" style="padding:9px 12px;font-size:.78rem;">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="Images/ps5.png" alt="PlayStation 5" />
+                            <span class="product-badge"><span class="badge badge-hot">Hot</span></span>
+                            <button class="product-wishlist-btn" style="color:var(--scarlet);" aria-label="Remove from Wishlist">♥</button>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-category">Gaming</p>
+                            <h3>Sony PlayStation 5 Console</h3>
+                            <div class="product-price"><span class="price-current">R12,999</span><span class="price-old">R14,999</span></div>
+                            <div style="display:flex;gap:8px;">
+                                <a href="Cart.html" class="btn btn-primary" style="flex:1;justify-content:center;font-size:.78rem;padding:9px;">Add to Cart</a>
+                                <a href="Product details.html" class="btn btn-light" style="padding:9px 12px;font-size:.78rem;">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <div class="text-center mt-32" style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;">
+                        <a href="Products.html" class="btn btn-outline">Continue Shopping</a>
+                        <a href="Cart.html" class="btn btn-primary">View Cart</a>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Exclusive<span>Gadgets</span></h2>
+                    <p>South Africa's premier online tech store.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">𝕏</a>
+                        <a href="#" class="social-link">📷</a>
+                    </div>
+                </div>
+                <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="home.html">Home</a></li><li><a href="Products.html">Products</a></li><li><a href="About.html">About</a></li><li><a href="Contact.html">Contact</a></li></ul></div>
+                <div class="footer-col"><h4>Categories</h4><ul><li><a href="Products.html#smartphones">Smartphones</a></li><li><a href="Products.html#laptops">Laptops</a></li><li><a href="Products.html#gaming">Gaming</a></li><li><a href="Products.html#smarthome">Smart Home</a></li></ul></div>
+                <div class="footer-col"><h4>Support</h4><ul><li><a href="Cart.html">Cart</a></li><li><a href="Checkout.html">Checkout</a></li><li><a href="Wishlist.html">Wishlist</a></li><li><a href="Contact.html">Help</a></li></ul></div>
+            </div>
+            <div class="footer-bottom-wrap">
+                <div class="footer-bottom container"><span>© 2026 ExclusiveGadgets. All rights reserved.</span></div>
+            </div>
+        </footer>
+
+    </body>
+</html>

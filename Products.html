@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="css/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Exclusive Gadgets</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="nav-mark">
+                <a href="home.html" class="nav-brand">Exclusive<span>Gadgets</span></a>
+            </div>
+
+            <!-- Right side: links + search + cart -->
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="home.html"     class="active">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Brands.html">Brands</a></li>
+                    <li><a href="Wishlist.html">Wishlist</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+
+                <!-- Search bar -->
+                <div class="nav-search">
+                    <input type="text" placeholder="Search gadgets…" aria-label="Search products" />
+                    <button aria-label="Search">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Wishlist icon -->
+                <a href="wishlist.html" class="nav-wishlist" aria-label="Wishlist">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                </a>
+
+                <!-- Cart icon -->
+                <a href="Cart.html" class="nav-cart" aria-label="Shopping Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <path d="M16 10a4 4 0 0 1-8 0"/>
+                    </svg>
+                    <span class="cart-count">3</span>
+                </a>
+            </div>
+        </nav>
+
+        <div class="page-header">
+            <h1>Shop All Products</h1>
+            <p>Browse our full range of premium tech gadgets</p>
+            <div class="breadcrumb">
+            <a href="home.html">Home</a>
+            <span class="breadcrumb-sep">›</span>
+            <span>Products</span>
+            </div>
+        </div>
+
+        <main>
+            <section class="section">
+                <div class="container">
+
+                    <!-- Category filter tabs -->
+                    <div class="filter-tabs">
+                        <button class="filter-tab active">All Products</button>
+                        <button class="filter-tab" id="smartphones">Smartphones &amp; Tablets</button>
+                        <button class="filter-tab" id="laptops">Laptops &amp; Accessories</button>
+                        <button class="filter-tab" id="gaming">Gaming &amp; Entertainment</button>
+                        <button class="filter-tab" id="smarthome">Smart Home Devices</button>
+                        <button class="filter-tab" id="audio">Audio &amp; Headphones</button>
+                    </div>
+
+                    <!-- Smartphones & Tablets -->
+                    <div class="mb-32">
+                        <h2 style="font-size:1.3rem;font-weight:700;margin-bottom:20px;display:flex;align-items:center;gap:10px;">
+                            <span style="color:var(--scarlet);">📱</span> Smartphones &amp; Tablets
+                        </h2>
+                        <div class="product-grid">
+                            <div class="product-card">
+                            <div class="product-card-img">
+                                <img src="Images/Iphe 15 pro max.png" alt="iPhone 15 Pro" />
+                                <span class="product-badge"><span class="badge badge-new">New</span></span>
+                                <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                            </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Smartphones</p>
+                                    <h3>Apple iPhone 15 Pro — 256GB</h3>
+                                    <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(412)</span></div>
+                                    <div class="product-price"><span class="price-current">R22,999</span><span class="price-old">R25,000</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/samsung s25.png" alt="Samsung Galaxy S25" />
+                                    <span class="product-badge"><span class="badge badge-sale">Sale</span></span>
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Smartphones</p>
+                                    <h3>Samsung Galaxy S25 Ultra — 512GB</h3>
+                                    <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(308)</span></div>
+                                    <div class="product-price"><span class="price-current">R24,499</span><span class="price-old">R27,999</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/samsung tab.png" alt="Samsung Galaxy Tab S9" />
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Tablets</p>
+                                    <h3>Samsung Galaxy Tab S9 — 128GB</h3>
+                                    <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(543)</span></div>
+                                    <div class="product-price"><span class="price-current">R14,999</span><span class="price-old">R17,500</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Laptops & Accessories -->
+                    <div class="mb-32">
+                        <h2 style="font-size:1.3rem;font-weight:700;margin-bottom:20px;display:flex;align-items:center;gap:10px;">
+                            <span style="color:var(--scarlet);">💻</span> Laptops &amp; Accessories
+                        </h2>
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/Macbook pro 14.png" alt="MacBook Pro 14" />
+                                    <span class="product-badge"><span class="badge badge-best">Best Seller</span></span>
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Laptops</p>
+                                    <h3>Apple MacBook Pro 14" M3 Pro</h3>
+                                    <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(289)</span></div>
+                                    <div class="product-price"><span class="price-current">R38,999</span><span class="price-old">R42,000</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/dell xp.png" alt="Dell XPS 15" />
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Laptops</p>
+                                    <h3>Dell XPS 15 OLED — Intel Core i9</h3>
+                                    <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(176)</span></div>
+                                    <div class="product-price"><span class="price-current">R34,999</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/lenovo_laptop.jpg" alt="Lenovo ThinkPad X1" />
+                                    <span class="product-badge"><span class="badge badge-new">New</span></span>
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Laptops</p>
+                                    <h3>Lenovo ThinkPad X1 Carbon Gen 12</h3>
+                                    <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(134)</span></div>
+                                    <div class="product-price"><span class="price-current">R28,999</span><span class="price-old">R32,000</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gaming & Entertainment -->
+                    <div class="mb-32">
+                        <h2 style="font-size:1.3rem;font-weight:700;margin-bottom:20px;display:flex;align-items:center;gap:10px;">
+                            <span style="color:var(--scarlet);">🎮</span> Gaming &amp; Entertainment
+                        </h2>
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/ps5.png" alt="PlayStation 5" />
+                                    <span class="product-badge"><span class="badge badge-hot">Hot</span></span>
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Consoles</p>
+                                    <h3>Sony PlayStation 5 Console</h3>
+                                    <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(1,204)</span></div>
+                                    <div class="product-price"><span class="price-current">R12,999</span><span class="price-old">R14,999</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/Xbox_console.jpg" alt="Xbox Series X" />
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Consoles</p>
+                                    <h3>Xbox Series X — 1TB</h3>
+                                    <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(987)</span></div>
+                                    <div class="product-price"><span class="price-current">R11,999</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/Headphones.jpg" alt="Gaming Headset" />
+                                    <span class="product-badge"><span class="badge badge-sale">Sale</span></span>
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Gaming Accessories</p>
+                                    <h3>Razer BlackShark V2 Pro Headset</h3>
+                                    <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(421)</span></div>
+                                    <div class="product-price"><span class="price-current">R3,499</span><span class="price-old">R4,500</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Smart Home Devices -->
+                    <div>
+                        <h2 style="font-size:1.3rem;font-weight:700;margin-bottom:20px;display:flex;align-items:center;gap:10px;">
+                            <span style="color:var(--scarlet);">🏠</span> Smart Home Devices
+                        </h2>
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/Amazon echo gen.jpg" alt="Amazon Echo Dot" />
+                                    <span class="product-badge"><span class="badge badge-new">New</span></span>
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Smart Speakers</p>
+                                    <h3>Amazon Echo Dot 5th Gen</h3>
+                                    <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(198)</span></div>
+                                    <div class="product-price"><span class="price-current">R1,299</span><span class="price-old">R1,599</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/smart light bulb.jpg" alt="Philips Hue Smart Bulb" />
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Smart Lighting</p>
+                                    <h3>Philips Hue Smart Bulb Starter Kit</h3>
+                                    <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(312)</span></div>
+                                    <div class="product-price"><span class="price-current">R2,499</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="Images/door bell.png" alt="Ring Video Doorbell" />
+                                    <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                                </div>
+                                <div class="product-card-body">
+                                    <p class="product-category">Security</p>
+                                    <h3>Ring Video Doorbell Pro 2</h3>
+                                    <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(267)</span></div>
+                                    <div class="product-price"><span class="price-current">R3,999</span></div>
+                                    <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-grid">
+                <!-- Brand column -->
+                <div class="footer-brand">
+                    <h2>Exclusive<span>Gadgets</span></h2>
+                    <p>
+                        South Africa's premier online tech store, offering genuine products at competitive prices.
+                        Built for students, gamers, remote workers, and tech enthusiasts.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">f</a>
+                        <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="YouTube">▶</a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Products.html">Shop All</a></li>
+                        <li><a href="Brands.html">Featured Brands</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Categories -->
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="Products.html#smartphones">Smartphones & Tablets</a></li>
+                        <li><a href="Products.html#laptops">Laptops & Accessories</a></li>
+                        <li><a href="Products.html#gaming">Gaming & Entertainment</a></li>
+                        <li><a href="Products.html#smarthome">Smart Home Devices</a></li>
+                        <li><a href="Products.html#audio">Audio & Headphones</a></li>
+                    </ul>
+                </div>
+                <!-- Support -->
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="Cart.html">Shopping Cart</a></li>
+                        <li><a href="Checkout.html">Checkout</a></li>
+                        <li><a href="Wishlist.html">My Wishlist</a></li>
+                        <li><a href="Contact.html">Help Centre</a></li>
+                        <li><a href="#">Returns Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom-wrap">
+                <div class="footer-bottom container">
+                    <span>© 2026 ExclusiveGadgets. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

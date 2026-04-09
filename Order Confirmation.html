@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="css/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Order Confirmation | Exclusive Gadgets</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <!-- Logo-->
+            <div class="nav-mark">
+                <a href="home.html" class="nav-brand">Exclusive<span>Gadgets</span></a>
+            </div>
+
+            <!-- Right side: links + search + cart -->
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="home.html"     class="active">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Brands.html">Brands</a></li>
+                    <li><a href="Wishlist.html">Wishlist</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+
+                <!-- Search bar -->
+                <div class="nav-search">
+                    <input type="text" placeholder="Search gadgets…" aria-label="Search products" />
+                    <button aria-label="Search">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Wishlist icon -->
+                <a href="Wishlist.html" class="nav-wishlist" aria-label="Wishlist">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                </a>
+
+                <!-- Cart icon -->
+                <a href="Cart.html" class="nav-cart" aria-label="Shopping Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <path d="M16 10a4 4 0 0 1-8 0"/>
+                    </svg>
+                    <span class="cart-count">3</span>
+                </a>
+            </div>
+        </nav>
+
+        <main>
+            <section class="section">
+                <div class="container">
+                    <div class="confirmation-card">
+                        <!-- Success icon -->
+                        <div class="confirmation-icon">✅</div>
+                        <h1>Order Confirmed!</h1>
+                        <p>Thank you for shopping with <strong>Exclusive Gadgets</strong>!</p>
+                        <p>A confirmation email has been sent to <strong>Siya@example.com</strong></p>
+                        <div class="order-number">Order #EG-2026-00847</div>
+
+                        <!-- Order summary -->
+                        <div class="confirmation-items">
+                            <h4>Order Summary</h4>
+                            <div class="confirm-item">
+                                <span>Apple iPhone 15 Pro (256GB) × 1</span>
+                                <span>R22,999</span>
+                            </div>
+                            <div class="confirm-item">
+                                <span>Sony WH-1000XM5 Headphones × 1</span>
+                                <span>R7,499</span>
+                            </div>
+                            <div class="confirm-item">
+                                <span>Sony PlayStation 5 Console × 1</span>
+                                <span>R12,999</span>
+                            </div>
+                            <div class="confirm-item" style="font-weight:600;">
+                                <span>Total (incl. VAT)</span>
+                                <span>R50,021.55</span>
+                            </div>
+                        </div>
+
+                        <!-- Estimated delivery -->
+                        <div style="background:var(--scarlet-lt);border-radius:var(--radius);padding:16px;margin-bottom:24px;">
+                            <p style="font-size:.85rem;font-weight:600;color:var(--scarlet-dk);">
+                                🚚 Estimated Delivery: <strong>15 – 17 March 2026</strong>
+                            </p>
+                            <p style="font-size:.78rem;color:var(--gray-500);margin-top:4px;">
+                                Shipping to: 12 Main Road, Cape Town, Western Cape, 7700
+                            </p>
+                        </div>
+
+                        <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+                            <a href="home.html" class="btn btn-primary">Continue Shopping</a>
+                            <a href="Contact.html" class="btn btn-light">Need Help?</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Exclusive<span>Gadgets</span></h2>
+                    <p>South Africa's premier online tech store.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">𝕏</a>
+                        <a href="#" class="social-link">📷</a>
+                    </div>
+                </div>
+                <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="home.html">Home</a></li><li><a href="Products.html">Products</a></li><li><a href="About.html">About</a></li><li><a href="Contact.html">Contact</a></li></ul></div>
+                <div class="footer-col"><h4>Categories</h4><ul><li><a href="Products.html#smartphones">Smartphones</a></li><li><a href="Products.html#laptops">Laptops</a></li><li><a href="Products.html#gaming">Gaming</a></li><li><a href="Products.html#smarthome">Smart Home</a></li></ul></div>
+                <div class="footer-col"><h4>Support</h4><ul><li><a href="Cart.html">Cart</a></li><li><a href="Checkout.html">Checkout</a></li><li><a href="Wishlist.html">Wishlist</a></li><li><a href="Contact.html">Help</a></li></ul></div>
+            </div>
+            <div class="footer-bottom-wrap">
+                <div class="footer-bottom container"><span>© 2026 ExclusiveGadgets. All rights reserved.</span></div>
+            </div>
+        </footer>
+
+    </body>
+</html>
