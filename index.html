@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="css/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Exclusive Gadgets</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="nav-mark">
+                <a href="home.html" class="nav-brand">Exclusive<span>Gadgets</span></a>
+            </div>
+
+            <!-- Right side: links + search + cart -->
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="home.html"     class="active">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Brands.html">Brands</a></li>
+                    <li><a href="Wishlist.html">Wishlist</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+
+                <!-- Search bar -->
+                <div class="nav-search">
+                    <input type="text" placeholder="Search gadgets…" aria-label="Search products" />
+                    <button aria-label="Search">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Wishlist icon -->
+                <a href="Wishlist.html" class="nav-wishlist" aria-label="Wishlist">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                </a>
+
+                <!-- Cart icon -->
+                <a href="Cart.html" class="nav-cart" aria-label="Shopping Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <path d="M16 10a4 4 0 0 1-8 0"/>
+                    </svg>
+                    <span class="cart-count">3</span>
+                </a>
+            </div>
+        </nav>
+
+
+
+        <main>
+            <!-- HERO SECTION with background video -->
+            <section class="hero">
+
+                <!-- Background video -->
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="Images/hero-video.mp4" type="video/mp4" />
+                </video>
+
+                <div class="hero-inner">
+                    <div class="hero-content">
+                        <div class="hero-eyebrow">New Arrivals 2026</div>
+                        <h1>The Future of<br /><span>Tech is Here</span></h1>
+                        <p>Discover our curated collection of premium gadgets.</p>
+                        <div class="hero-actions">
+                            <a href="Products.html" class="btn btn-primary">Shop Now</a>
+                            <a href="About.html" class="btn btn-outline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Features bar-->
+            <div class="features-bar">
+                <div class="features-inner">
+                    <div class="feature-item">
+                        <div class="feature-icon">🚚</div>
+                        <div class="feature-text">
+                            <strong>Free Delivery</strong>
+                            <span>On orders over R999</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔒</div>
+                        <div class="feature-text">
+                            <strong>Secure Payments</strong>
+                            <span>256-bit SSL encryption</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">↩️</div>
+                        <div class="feature-text">
+                            <strong>30-Day Returns</strong>
+                            <span>Hassle-free refunds</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🏆</div>
+                        <div class="feature-text">
+                            <strong>Official Warranty</strong>
+                            <span>Manufacturer guaranteed</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📞</div>
+                        <div class="feature-text">
+                            <strong>24/7 Support</strong>
+                            <span>Always here to help</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- Product categories -->
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="eyebrow">Browse by Category</span>
+                        <h2>Shop by Category</h2>
+                        <p>Find exactly what you need, from the latest smartphones to smart home devices</p>
+                    </div>
+                    <!-- Category grid: 4 columns -->
+                    <div class="category-grid">
+                        <a href="Products.html#smartphones" class="category-card">
+                            <img
+                                src="Images/smartphones.png"
+                                alt="Smartphones & Tablets category"
+                            />
+                            <div class="category-overlay">
+                                <h3>Smartphones & Tablets</h3>
+                                <span>24 Products</span>
+                            </div>
+                        </a>
+                        <a href="Products.html#laptops" class="category-card">
+                            <img
+                                src="Images/Laptops and acc.png"
+                                alt="Laptops & Accessories category"
+                            />
+                            <div class="category-overlay">
+                                <h3>Laptops & Accessories</h3>
+                                <span>18 Products</span>
+                            </div>
+                        </a>
+                        <a href="Products.html#gaming" class="category-card">
+                            <img
+                                src="Images/Gaming and entertainment.png"
+                                alt="Gaming & Entertainment category"
+                            />
+                            <div class="category-overlay">
+                                <h3>Gaming & Entertainment</h3>
+                                <span>31 Products</span>
+                            </div>
+                        </a>
+                        <a href="Products.html#smarthome" class="category-card">
+                            <img
+                                src="Images/door bell.png"
+                                alt="Smart Home Devices category"
+                            />
+                            <div class="category-overlay">
+                                <h3>Smart Home Devices</h3>
+                                <span>15 Products</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Products -->
+            <section class="section bg-light">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="eyebrow">Hand-picked for You</span>
+                        <h2>Featured Products</h2>
+                        <p>Our most popular gadgets, loved by students, gamers, and professionals alike</p>
+                    </div>
+                    <div class="product-grid">
+
+                    <!-- Product 1: iPhone 15 Pro -->
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img
+                                src="Images/Iphe 15 pro max.png"
+                                alt="Apple iPhone 15 Pro"
+                            />
+                            <span class="product-badge"><span class="badge badge-new">New</span></span>
+                            <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-category">Smartphones</p>
+                            <h3>Apple iPhone 15 Pro — 256GB</h3>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(412 reviews)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="price-current">R22,999</span>
+                                <span class="price-old">R25,000</span>
+                                <span class="price-save">Save 8%</span>
+                            </div>
+                            <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                            </div>
+                    </div>
+
+                    <!-- Product 2: MacBook Pro -->
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img
+                                src="Images/Macbook pro 14.png"
+                                alt="Apple MacBook Pro 14-inch"
+                            />
+                            <span class="product-badge"><span class="badge badge-best">Best Seller</span></span>
+                            <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-category">Laptops</p>
+                            <h3>Apple MacBook Pro 14" M3 Pro</h3>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(289 reviews)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="price-current">R38,999</span>
+                                <span class="price-old">R42,000</span>
+                                <span class="price-save">Save 7%</span>
+                            </div>
+                            <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: PS5 -->
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img
+                                src="Images/ps5.png"
+                                alt="Sony PlayStation 5"
+                            />
+                            <span class="product-badge"><span class="badge badge-hot">Hot</span></span>
+                            <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-category">Gaming</p>
+                            <h3>Sony PlayStation 5 Console</h3>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(1,204 reviews)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="price-current">R12,999</span>
+                                <span class="price-old">R14,999</span>
+                                <span class="price-save">Save 13%</span>
+                            </div>
+                            <a href="Product details.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Details</a>
+                            </div>
+                    </div>
+
+                    </div>
+                    <div class="text-center mt-32">
+                        <a href="Products.html" class="btn btn-outline">View All Products</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="deals-banner">
+                        <div class="deals-text">
+                            <div class="eyebrow-white">🔥 Limited Time Deal</div>
+                            <h2>Up to 40% Off<br />on Top Gadgets</h2>
+                            <p>Exclusive deals on smartphones, laptops & gaming gear. Don't miss out, offer ends Sunday!</p>
+                            <div class="countdown">
+                                <div class="cd-block"><div class="cd-number">02</div><div class="cd-label">Days</div></div>
+                                <div class="cd-block"><div class="cd-number">14</div><div class="cd-label">Hours</div></div>
+                                <div class="cd-block"><div class="cd-number">37</div><div class="cd-label">Mins</div></div>
+                                <div class="cd-block"><div class="cd-number">09</div><div class="cd-label">Secs</div></div>
+                            </div>
+                            <a href="Products.html" class="btn btn-light">Grab the Deal</a>
+                        </div>
+                        <div>
+                            <video
+                                autoplay
+                                muted
+                                loop
+                                playsinline
+                                style="width:380px;border-radius:12px;box-shadow:0 16px 48px rgba(0,0,0,.3);display:block;"
+                            >
+                                <source src="Images/Promo-video.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                
+            <!-- Bestsellers -->
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="eyebrow">Customer Favourites</span>
+                        <h2>Bestsellers</h2>
+                    </div>
+                    <div class="product-grid-4">
+                        <!-- Headphones -->
+                        <div class="product-card">
+                            <div class="product-card-img">
+                                <img
+                                    src="Images/Sony headphones.png"
+                                    alt="Sony WH-1000XM5 Headphones"
+                                />
+                                <span class="product-badge"><span class="badge badge-best">Best Seller</span></span>
+                                <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                            </div>
+                            <div class="product-card-body">
+                                <p class="product-category">Audio</p>
+                                <h3>Sony WH-1000XM5</h3>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(876)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price-current">R7,499</span>
+                                    <span class="price-old">R9,000</span>
+                                </div>
+                                <a href="Product details.html" class="btn btn-outline" style="width:100%;justify-content:center;">View</a>
+                            </div>
+                        </div>
+                        <!-- Samsung Tab -->
+                        <div class="product-card">
+                            <div class="product-card-img">
+                                <img
+                                    src="Images/samsung tab.png"
+                                    alt="Samsung Galaxy Tab S9"
+                                />
+                                <span class="product-badge"><span class="badge badge-sale">Sale</span></span>
+                                <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                            </div>
+                            <div class="product-card-body">
+                                <p class="product-category">Tablets</p>
+                                <h3>Samsung Galaxy Tab S9</h3>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(543)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price-current">R14,999</span>
+                                    <span class="price-old">R17,500</span>
+                                </div>
+                                <a href="Product details.html" class="btn btn-outline" style="width:100%;justify-content:center;">View</a>
+                            </div>
+                        </div>
+                        <!-- Smartwatch -->
+                        <div class="product-card">
+                            <div class="product-card-img">
+                                <img
+                                    src="Images/Apple watch .png"
+                                    alt="Apple Watch Series 9"
+                                />
+                                <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                            </div>
+                            <div class="product-card-body">
+                                <p class="product-category">Smartwatches</p>
+                                <h3>Apple Watch Series 9 GPS</h3>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(321)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price-current">R10,999</span>
+                                </div>
+                                <a href="Product details.html" class="btn btn-outline" style="width:100%;justify-content:center;">View</a>
+                            </div>
+                        </div>
+                        <!-- Smart Home -->
+                        <div class="product-card">
+                            <div class="product-card-img">
+                                <img
+                                    src="Images/Amazon echo gen.jpg"
+                                    alt="Amazon Echo Dot 5th Gen"
+                                />
+                                <span class="product-badge"><span class="badge badge-new">New</span></span>
+                                <button class="product-wishlist-btn" aria-label="Add to Wishlist">♡</button>
+                            </div>
+                            <div class="product-card-body">
+                                <p class="product-category">Smart Home</p>
+                                <h3>Amazon Echo Dot 5th Gen</h3>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(198)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price-current">R1,299</span>
+                                    <span class="price-old">R1,599</span>
+                                </div>
+                                <a href="Product details.html" class="btn btn-outline" style="width:100%;justify-content:center;">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Customer reviews -->
+            <section class="section bg-light">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="eyebrow">What Customers Say</span>
+                        <h2>Trusted by Thousands</h2>
+                    </div>
+                    <div class="reviews-grid">
+                        <div class="review-card">
+                            <p class="review-text">
+                                "Absolutely love the iPhone 15 Pro I bought here. The price was the best I found,
+                                delivery was super fast and the packaging was immaculate. Will definitely shop again!"
+                            </p>
+                            <div class="reviewer">
+                                <div class="reviewer-avatar">MS</div>
+                                <div>
+                                    <div class="reviewer-name">Mandla Sithole</div>
+                                    <div class="reviewer-role">Student · Cape Town</div>
+                                </div>
+                                <div class="stars" style="margin-left:auto;">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-text">
+                                "The PS5 bundle deal was incredible. As a gamer, this is my go-to store for
+                                console games and accessories. The wishlist feature is super handy too!"
+                            </p>
+                            <div class="reviewer">
+                                <div class="reviewer-avatar">DW</div>
+                                <div>
+                                    <div class="reviewer-name">Devin Webster</div>
+                                    <div class="reviewer-role">Gamer · Durban</div>
+                                </div>
+                                <div class="stars" style="margin-left:auto;">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-text">
+                                "Bought the MacBook Pro for remote work, it's perfect. The product specs on
+                                the site were accurate, checkout was smooth, and it arrived the next day."
+                            </p>
+                            <div class="reviewer">
+                                <div class="reviewer-avatar">EC</div>
+                                <div>
+                                    <div class="reviewer-name">Eliah Chikuvandzi</div>
+                                    <div class="reviewer-role">Remote Worker · Johannesburg</div>
+                                </div>
+                                <div class="stars" style="margin-left:auto;">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Brand logos -->
+            <section class="section-sm">
+                <div class="container">
+                    <div class="text-center mb-32">
+                        <p style="font-size:.78rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gray-500);">
+                            Official stockist of
+                        </p>
+                    </div>
+                    <div class="brands-strip">
+                        <span class="brand-logo-item">Apple</span>
+                        <span class="brand-logo-item">Samsung</span>
+                        <span class="brand-logo-item">Sony</span>
+                        <span class="brand-logo-item">Microsoft</span>
+                        <span class="brand-logo-item">Dell</span>
+                        <span class="brand-logo-item">LG</span>
+                        <span class="brand-logo-item">Logitech</span>
+                        <span class="brand-logo-item">Lenovo</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter-section">
+                <div class="container">
+                    <span class="eyebrow">Stay in the Loop</span>
+                    <h2 style="font-size:1.8rem;font-weight:700;margin-top:10px;">Get Exclusive Deals in Your Inbox</h2>
+                    <p style="color:var(--gray-500);margin-top:10px;font-size:.88rem;">
+                        Subscribe and be the first to hear about new arrivals, flash sales, and tech news.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required />
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer-->
+        <footer>
+            <div class="footer-grid">
+                <!-- Brand column -->
+                <div class="footer-brand">
+                    <h2>Exclusive<span>Gadgets</span></h2>
+                    <p>
+                        South Africa's premier online tech store, offering genuine products at competitive prices.
+                        Built for students, gamers, remote workers, and tech enthusiasts.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">f</a>
+                        <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="YouTube">▶</a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Products.html">Shop All</a></li>
+                        <li><a href="Brands.html">Featured Brands</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Categories -->
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="Products.html#smartphones">Smartphones & Tablets</a></li>
+                        <li><a href="Products.html#laptops">Laptops & Accessories</a></li>
+                        <li><a href="Products.html#gaming">Gaming & Entertainment</a></li>
+                        <li><a href="Products.html#smarthome">Smart Home Devices</a></li>
+                        <li><a href="Products.html#audio">Audio & Headphones</a></li>
+                    </ul>
+                </div>
+                <!-- Support -->
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="Cart.html">Shopping Cart</a></li>
+                        <li><a href="Checkout.html">Checkout</a></li>
+                        <li><a href="Wishlist.html">My Wishlist</a></li>
+                        <li><a href="Contact.html">Help Centre</a></li>
+                        <li><a href="#">Returns Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom-wrap">
+                <div class="footer-bottom container">
+                    <span>© 2026 ExclusiveGadgets. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+
+
+</html>
